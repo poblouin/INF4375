@@ -1,0 +1,46 @@
+{
+  "name": "tp3",
+  "version": "1.0.0",
+  "description": "TP3 pour le cours INF4375 - Automne 2014",
+  "private": true,
+  "scripts": {
+    "start": "node app.js",
+    "migration_start": "node migration/migration.js && node app.js",
+    "migration": "node migration/migration.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/poblouin/INF4375"
+  },
+  "keywords": [
+    "node.js",
+    "mongodb",
+    "xml",
+    "express.js",
+    "REST",
+    "JSON",
+    "AJAX",
+    "jQuery"
+  ],
+  "author": "Pierre-Olivier Blouin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/poblouin/INF4375/issues"
+  },
+  "homepage": "https://github.com/poblouin/INF4375",
+  "dependencies": {
+    "async": "^0.9.0",
+    "body-parser": "~1.8.1",
+    "debug": "~2.0.0",
+    "express": "~4.9.0",
+    "hashmap": "^1.1.0",
+    "jade": "~1.6.0",
+    "jsonschema": "^1.0.0",
+    "marked": "^0.3.2",
+    "mongodb": "^1.4.19",
+    "morgan": "~1.3.0",
+    "serve-favicon": "~2.1.3",
+    "stylus": "0.42.3",
+    "xml2json": "^0.5.1"
+  }
+}

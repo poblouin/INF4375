@@ -1,0 +1,48 @@
+extends layout
+
+block content
+    h2= title
+    #pros
+        fieldset
+            legend Professionnel
+            label sexe
+            input#sexe(type='text', value='')
+            #sexe_confirme
+            br
+            label nom
+            input#nom(type='text', value='')
+            #nom_confirme
+            br
+            label prénom
+            input#prenom(type='text', value='')
+            #prenom_confirme
+            br
+            label spécialité
+            input#specialite(type='text', value='')
+            #specialite_confirme
+            br
+            label nombre de patients
+            input#nombre_patients(type='text', disabled, value='')
+            br
+            label total des visites
+            input#total_visites(type='text', disabled, value='')
+            br
+            br
+            strong liste des patients rencontrés en 2014 :
+                table
+                    thead
+                        th nom patient
+                        th prénom patient
+                        th id
+                    tbody
+            br
+    div
+        br
+        a(href='#', onclick='supprimer_pros()') Supprimer le professionnel
+        br
+        br
+        a(href='/') Retourner à la page d'accueil
+
+    block scripts
+        script(src='/javascripts/modifier.js')
+        script(src='/javascripts/consulter.js')

@@ -1,0 +1,30 @@
+{
+  "name": "tp1",
+  "version": "1.0.0",
+  "description": "TP1 pour le cours INF4375 - Automne 2014",
+  "main": "migration.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/poblouin/INF4375"
+  },
+  "keywords": [
+    "nodejs",
+    "mongodb",
+    "xml"
+  ],
+  "author": "Pierre-Olivier Blouin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/poblouin/INF4375/issues"
+  },
+  "homepage": "https://github.com/poblouin/INF4375",
+  "dependencies": {
+    "async": "^0.9.0",
+    "hashmap": "^1.1.0",
+    "mongodb": "^1.4.19",
+    "xml2json": "^0.5.1"
+  }
+}

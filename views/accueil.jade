@@ -1,0 +1,18 @@
+extends layout
+
+block content
+    h1= title
+
+    a(href='/pros/ajouter') Ajouter un nouveau professionnel
+
+    h2 Liste des professionnels
+    #liste_pros
+        table
+            thead
+                th Spécialité
+                th Nom
+                th Prénom
+                th Consulter professionnel
+            tbody
+    block scripts
+        script(src='/javascripts/accueil.js')
